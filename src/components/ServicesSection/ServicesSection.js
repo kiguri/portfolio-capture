@@ -1,8 +1,8 @@
-import clock from '../img/clock.svg'
-import diaphragm from '../img/diaphragm.svg'
-import money from '../img/money.svg'
-import teamwork from '../img/teamwork.svg'
-import home2 from '../img/home2.png'
+import clock from '../../img/clock.svg'
+import diaphragm from '../../img/diaphragm.svg'
+import money from '../../img/money.svg'
+import teamwork from '../../img/teamwork.svg'
+import home2 from '../../img/home2.png'
 
 const ServicesSection = () => {
     return ( 
