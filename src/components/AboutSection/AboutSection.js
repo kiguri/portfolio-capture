@@ -23,7 +23,7 @@ const AboutSection = () => {
                     </Hide>
                 </div>
                 <p>Contact me for any photography or videography ideas that you have.
-                    We have professionals with amzing skills
+                    We have professionals with amazing skills
                 </p>
 
                 <button>Contact Us</button>

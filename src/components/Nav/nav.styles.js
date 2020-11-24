@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const Navbar = styled.nav`
     min-height: 10vh;
@@ -25,7 +26,7 @@ export const NavLi = styled.li`
     position: relative;
 `
 
-export const NavLink = styled.a`
+export const NavLink = styled(Link)`
     color: #fff;
     text-decoration: none;
 `
