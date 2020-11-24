@@ -8,7 +8,8 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: #1b1b1b
+        background: #1b1b1b;
+        font-family: 'Inter', sans-serif;
     }
 
     button {
@@ -19,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
         border: 3px solid #23d997;
         color: #fff;
         transition: all .5s ease;
+        font-family: 'Inter', sans-serif;
         cursor: pointer;
     }
 
@@ -33,6 +35,7 @@ export const GlobalStyle = createGlobalStyle`
 
     h4 {
         font-weight: bold;
+        font-size: 2rem;
     }
 
     a {

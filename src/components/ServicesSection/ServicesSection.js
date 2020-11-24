@@ -4,49 +4,62 @@ import money from '../../img/money.svg'
 import teamwork from '../../img/teamwork.svg'
 import home2 from '../../img/home2.png'
 
+import {
+    ServicesContainer,
+    Description,
+    ImageWrapper,
+    Image,
+    ServicesH2,
+    Cards,
+    Card,
+    CardIcon,
+    CardP,
+    CardH3
+} from './services.styles'
+
 const ServicesSection = () => {
     return ( 
-        <div className='services'>
-            <div className='description'>
-                <h2>High <span>quality</span> services</h2>
-                <div className='cards'>
-                    <div className='card'>
-                        <div className='icon'>
+        <ServicesContainer>
+            <Description>
+                <ServicesH2>High <span>quality</span> services</ServicesH2>
+                <Cards>
+                    <Card>
+                        <CardIcon>
                             <img src={clock} alt='clock icon'/>
-                            <h3>Efficient</h3>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
+                            <CardH3>Efficient</CardH3>
+                        </CardIcon>
+                        <CardP>Lorem ipsum dolor sit amet.</CardP>
+                    </Card>
 
-                    <div className='card'>
-                        <div className='icon'>
+                    <Card>
+                        <CardIcon>
                             <img src={teamwork} alt='teamwork icon'/>
-                            <h3>Teamwork</h3>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
+                            <CardH3>Teamwork</CardH3>
+                        </CardIcon>
+                        <CardP>Lorem ipsum dolor sit amet.</CardP>
+                    </Card>
 
-                    <div className='card'>
-                        <div className='icon'>
+                    <Card>
+                        <CardIcon>
                             <img src={diaphragm} alt='diaphragm icon'/>
-                            <h3>Diaphragm</h3>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
+                            <CardH3>Diaphragm</CardH3>
+                        </CardIcon>
+                        <CardP>Lorem ipsum dolor sit amet.</CardP>
+                    </Card>
 
-                    <div className='card'>
-                        <div className='icon'>
+                    <Card>
+                        <CardIcon>
                             <img src={money} alt='money icon'/>
-                            <h3>Affordable</h3>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                </div>
-            </div>
-            <div className='image'>
-                <img src={home2} alt='home' />
-            </div>
-        </div> 
+                            <CardH3>Affordable</CardH3>
+                        </CardIcon>
+                        <CardP>Lorem ipsum dolor sit amet.</CardP>
+                    </Card>
+                </Cards>
+            </Description>
+            <ImageWrapper>
+                <Image src={home2} alt='home' />
+            </ImageWrapper>
+        </ServicesContainer> 
     );
 }
  
